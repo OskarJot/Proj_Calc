@@ -18,7 +18,16 @@ body {
 	box-shadow: 0 0 10px #000;
 }
 
-.chep {
+.valueForm {
+	width: 100%;
+}
+
+.form {
 	width: 100%;
 	height: 100%;
+	padding: 10px;
+}
+
+.value {
+	width: 100%;
 }
