@@ -23,9 +23,11 @@ const checkValue = () => {
 };
 
 const caclBill = () => {
-	const finalBill =
+	const bill =
 		(priceValue.value * 1 + priceValue.value * (chepValue.value * 0.01)) /
 		peopleValue.value;
+
+	const finalBill = bill.toFixed(2);
 
 	alertMsg.innerHTML = finalBill + ' zł';
 };

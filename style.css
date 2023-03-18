@@ -44,7 +44,7 @@ body {
 .alert {
 	text-align: center;
 	font-size: 26px;
-	padding: 10px;
+	padding: 20px 0 0 0;
 }
 
 .buttonCalc {
